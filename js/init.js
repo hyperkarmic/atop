@@ -1,8 +1,15 @@
-(function($){
-  $(function(){
+;(function ($) {
+  $(function () {
+    $('.sidenav').sidenav()
 
-    $('.sidenav').sidenav();
+    //init Slider
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+    $('.slider').slider({
+      fullWidth: true,
+      indicators: false,
+      height: 500,
+    })
+  }) // end of document ready
+})(jQuery) // end of jQuery name space
 
+//init slider
