@@ -17,6 +17,8 @@ nav .logo {
   margin-left: 50px;
 }
 
-.fg {
-  margin-left: 45deg;
+.slider .btn {
+  margin-top: 20px;
+  pading: 0 50px;
+  border-radius: 1%;
 }
